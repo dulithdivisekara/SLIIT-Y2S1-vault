@@ -143,7 +143,3 @@ sequenceDiagram
 > [!TIP] Parameters act as the model's memory learned during training. The Context Window acts as the short-term memory (how much of the current text it can read at once).
 
 > [!TIP] 1. Input Layer 2. Hidden Layers 3. Output Layer
-
-```
-
-```
