@@ -31,10 +31,10 @@ graph TD
     B --> E[Deep Learning]:::green
     E --> F[Generative AI]:::yellow
 
-    classDef gray fill:#f4f4f5,stroke:#333;
-    classDef blue fill:#e0f2fe,stroke:#0284c7;
-    classDef green fill:#dcfce7,stroke:#16a34a;
-    classDef yellow fill:#fef3c7,stroke:#d97706;
+    classDef gray fill:#27272a,stroke:#a1a1aa,color:#f4f4f5;
+    classDef blue fill:#0c4a6e,stroke:#38bdf8,color:#f0f9ff;
+    classDef green fill:#14532d,stroke:#4ade80,color:#f0fdf4;
+    classDef yellow fill:#78350f,stroke:#fbbf24,color:#fffbeb;
 ````
 
 ## 2. Programming Paradigms: Traditional vs. ML
