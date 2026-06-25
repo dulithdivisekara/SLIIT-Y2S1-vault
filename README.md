@@ -1,6 +1,6 @@
-# SLIIT Information Technology - Knowledge Base
+# SLIIT Information Technology - Knowledge Base (Y1S2)
 
-> An open-source, highly structured collection of study notes, runnable code snippets, and active recall quizzes for the B.Sc. (Hons) Information Technology degree.
+> An open-source, highly structured collection of study notes, runnable code snippets, and active recall quizzes for the B.Sc. (Hons) Information Technology degree (Year 1, Semester 2).
 
 This repository is designed to bridge the gap between theoretical university lectures and practical engineering. Every note is formatted for readability, retention, and immediate technical application.
 
@@ -21,7 +21,7 @@ This repository is designed to bridge the gap between theoretical university lec
 This knowledge base goes beyond standard text files. It is engineered for active learning:
 
 * **Minimalist Architecture:** Clean, distraction-free formatting using strict Markdown hierarchy.
-* **Runnable Code Snippets:** Self-contained scripts (Java, Bash, etc.) ready to be pasted directly into an IDE.
+* **Interactive AI Study Partners:** Direct links to Google NotebookLM for every module, allowing you to chat with the notes, generate quizzes, and listen to AI audio overviews.
 * **Visual Workflows:** Complex architectures mapped out using dynamically rendered Mermaid.js diagrams.
 * **Active Recall Integration:** Interactive, dropdown-based flashcards built into the end of every lecture note to test retention.
 
@@ -29,14 +29,16 @@ This knowledge base goes beyond standard text files. It is engineered for active
 
 ## Modules Covered
 
-As the degree progresses, this table will be updated with links to the respective module directories.
+Below is the directory mapping for the Year 1, Semester 2 modules. Click the study notes link to view the markdown files, or open the interactive AI partner to chat with the lecture materials.
 
-| Semester | Module Code | Subject Name | Primary Technologies |
+| Module | Subject Name | Study Notes | Interactive AI Partner |
 | :--- | :--- | :--- | :--- |
-| Y1/S1 | IT1010 | Introduction to Programming | C, Algorithms |
-| Y2/S1 | IT2011 | Expert Systems & Ontologies | AI, Rule-Based Logic |
-| Y2/S1 | IT2020 | Computer Networks | TCP/IP, Linux Routing |
-| Y2/S2 | IT2030 | Object-Oriented Programming | Java |
+| **AI-ML** | Artificial Intelligence & Machine Learning | [📁 View Notes](./AI-ML) | [🤖 NotebookLM Study Guide](https://notebooklm.google.com/notebook/4cfeaaea-36b8-4f8f-9450-ac218ddd6e6f) |
+| **DDD** | Database Design and Development | [📁 View Notes](./DDD) | [🤖 NotebookLM Study Guide](https://notebooklm.google.com/notebook/0bc94c2f-fffe-4362-b24b-ca35c3d2aa87) |
+| **PS** | Probability and Statistics | [📁 View Notes](./PS) | [🤖 NotebookLM Study Guide](https://notebooklm.google.com/notebook/7d61a51e-90d7-43f6-ba02-60d67b11bf35) |
+| **SE** | Software Engineering | [📁 View Notes](./SE) | [🤖 NotebookLM Study Guide](https://notebooklm.google.com/notebook/f19181de-b735-409f-8363-d2e9e3d1d381) |
+
+> 💡 **How to use the AI Partner:** Click a NotebookLM link above. You can use the chat box to ask things like *"Create a 5-question quiz based on lecture 3"* or *"Explain the ER to Relational Model Mapping like I'm 5."*
 
 ---
 
@@ -51,63 +53,48 @@ Navigate through the folders directly on GitHub. The platform natively renders a
 For the best experience, integrate this into your personal knowledge system:
 1. Clone this repository to your local machine:
 ```bash
-   git clone [https://github.com/yourusername/sliit-it-study-notes.git](https://github.com/yourusername/sliit-it-study-notes.git)
-````
+git clone [https://github.com/yourusername/sliit-it-study-notes.git](https://github.com/yourusername/sliit-it-study-notes.git)
+
+```
 
 2. Open the downloaded folder as a Vault in **Obsidian**.
-    
 3. All tags, frontmatter, and interactive dropdowns will work natively, allowing you to link concepts together.
-    
+
+---
 
 ## Executing the Code
 
 Technical notes include self-contained code blocks designed for zero-friction testing.
 
 1. Locate the `Technical Implementation` section in a note.
-    
 2. Hover over the top right corner of the code block and click the Copy icon.
-    
-3. Paste into your IDE (e.g., IntelliJ, VS Code) or terminal.
-    
+3. Paste into your IDE (e.g., IntelliJ, VS Code, DataGrip) or terminal.
 4. Execute immediately—no missing dependencies or broken classes.
-    
+
+---
 
 ## Contributing
 
 Collaborative learning makes everyone a better engineer. If you spot a typo, have a more efficient algorithm, or want to contribute notes for a missing lecture:
 
 1. Fork the repository.
-    
 2. Create a new branch (`feature/add-lecture-note`).
-    
 3. Commit your changes.
-    
 4. Open a Pull Request.
-    
 
 **⭐ If these notes helped you prepare for an exam or understand a difficult concept, please consider leaving a Star on this repository!**
+
+---
 
 ## About the Author
 
 Maintained by **Dulith Divisekara**
 
-_B.Sc. (Hons) Information Technology undergraduate at SLIIT._
+*B.Sc. (Hons) Information Technology undergraduate at SLIIT.*
 
-Passionate about network protocols, Linux administration, Java development, and building tools that help the community learn faster.
+Passionate about data structures, AI/ML pipelines, database architectures, and building tools that help the community learn faster.
 
-- [Connect on LinkedIn](https://www.google.com/search?q=%23) _(Add your link here)_
-    
-- [Follow on GitHub](https://www.google.com/search?q=%23) _(Add your link here)_
-    
+* [Connect on LinkedIn](https://www.linkedin.com/in/your-profile) *(Update this link)*
+* [Follow on GitHub](https://github.com/yourusername) *(Update this link)*
 
-_Disclaimer: These notes are created for educational purposes. They supplement, but do not replace, official university course materials, grading rubrics, and lectures._
-
-```
-
-### Why this README is a massive upgrade:
-*   **The Quote Block (`>`) at the top:** Instantly tells visitors exactly what the project is in a clean, elegant way.
-*   **Table of Contents:** Makes the document scannable and highly professional. Standard in all top-tier open-source projects.
-*   **The `<kbd>Copy</kbd>` tag:** This HTML tag puts a neat little box around the word "Copy", making it look like a physical keyboard button on GitHub. It looks incredibly polished.
-*   **Modules Table:** Gives visitors a clear map of what is inside the repository at a glance, making it easy to navigate.
-*   **Portfolio Integration:** The "About the Author" section positions you not just as a student, but as an active, organized developer building real-world resources.
-```
+*Disclaimer: These notes are created for educational purposes. They supplement, but do not replace, official university course materials, grading rubrics, and lectures.*
